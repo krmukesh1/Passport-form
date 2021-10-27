@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: blue;
+  padding: 0 60px;
+  height: 130px;
+}
+.ml-auto {
+  display: flex;
+  align-items: center;
+}
+.ml-auto h2 {
+  font-size: 60px;
+  color: #fff;
+}
