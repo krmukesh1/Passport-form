@@ -28,7 +28,7 @@ nav {
   justify-content: space-between;
 }
 .column {
-  flex-basis: 31%;
+  flex-basis: 33%;
   background: #fff;
   border: 1px solid #000;
 
@@ -38,10 +38,29 @@ nav {
 }
 .form-control {
   border-bottom: 1px solid #999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+.form-control:nth-child(8) {
+  border-bottom: none;
+}
+label {
+  font-size: 24px;
+  color: blue;
+  font-weight: 700;
 }
 input {
   border: 0;
-  padding: 20px;
+  width: 22rem;
+  font-size: 24px;
+}
+input::placeholder {
+  font-size: 24px;
+}
+:focus-visible {
+  outline: 0;
 }
 @media (max-width: 767px) {
   nav {
